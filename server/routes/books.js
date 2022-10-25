@@ -8,8 +8,9 @@ const router = Router();
 /* GET books List page. READ */
 router.get('/books/list', displayBookList);
 
-//  GET the Book Details page in order to add a new Book
+// GET the Book Details page in order to add a new Book
 router.get('/books/add', displayAddPage);
+
 // POST process the Book Details page and create a new Book - CREATE
 router.post('/books/add', processAddPage);
 

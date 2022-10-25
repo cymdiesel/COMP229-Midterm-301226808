@@ -47,9 +47,7 @@ export function processAddPage(req, res, next) {
 // GET the Book Details page in order to edit an existing Book
 export function displayEditPage(req, res, next) {
 
-    /*****************
-     * ADD CODE HERE *
-     *****************/
+
 
 }
 
