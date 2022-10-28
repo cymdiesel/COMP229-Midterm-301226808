@@ -1,3 +1,10 @@
+/*
+    COMP229-MIDTERM-301226808-CymanthaDiesel
+    Cymantha Diesel
+    301226808
+    Midterm - Book List 
+*/
+
 import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 

@@ -1,3 +1,12 @@
+/*
+    COMP229-MIDTERM-301226808-CymanthaDiesel
+    Cymantha Diesel
+    301226808
+    Midterm - Book List 
+*/
+
+
+
 // define the book model
 import books from '../models/books.js';
 import booksModel from '../models/books.js';
