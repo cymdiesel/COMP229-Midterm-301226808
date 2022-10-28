@@ -3,7 +3,7 @@ import { Router } from "express";
 
 import { displayAddPage, displayBookList, displayEditPage, processAddPage, processDelete, processEditPage } from "../controllers/books.js";
 
-const router = Router();
+let router = Router();
 
 /* GET books List page. READ */
 router.get('/books/list', displayBookList);
