@@ -24,7 +24,7 @@ export function displayAddPage(req, res, next) {
 
 // POST process the Book Details page and create a new Book - CREATE
 export function processAddPage(req, res, next) {
-    // Added Code that reads the informaiton from the add page to make a new object
+    // Code that reads the informaiton from the add page to make a new object
     let newBook = booksModel({
         name: req.body.name,
         author: req.body.author,
@@ -46,7 +46,7 @@ export function processAddPage(req, res, next) {
 
 // GET the Book Details page in order to edit an existing Book
 export function displayEditPage(req, res, next) {
-
+        
 
 
 }
